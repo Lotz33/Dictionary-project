@@ -5,7 +5,9 @@ export default function Result(props) {
   if (props.result) {
     return (
       <div className="Result">
-        <h2>{props.result.word}</h2>
+        <h2 className="text-capitalize">
+          <strong>{props.result.word}</strong>
+        </h2>
 
         {props.result.meanings.map(function (meaning, index) {
           return (
