@@ -1,4 +1,6 @@
+import { definitionSyntax } from "css-tree";
 import React from "react";
+import Synonyms from "./Synonyms";
 
 export default function Meaning(props) {
   return (
@@ -13,6 +15,8 @@ export default function Meaning(props) {
                 <strong>Example:</strong> {definition.example}
               </em>{" "}
             </p>
+            <Synonyms synonyms={definition.synonyms} />
+            <hr />
           </div>
         );
       })}
