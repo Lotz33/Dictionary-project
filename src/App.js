@@ -11,7 +11,7 @@ function App() {
 
         <Dictionary />
       </div>
-      <div class="footer text-center py-3">
+      <div className="footer text-center py-3">
         {" "}
         Coded by
         <a href="https://github.com/Lotz33/Dictionary-project"> Lottie</a>

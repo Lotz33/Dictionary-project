@@ -6,16 +6,18 @@ export default function Result(props) {
   if (props.result) {
     return (
       <div className="Result">
-        <h2 className="text-capitalize">
-          <strong>{props.result.word}</strong>
-        </h2>
-        {props.result.phonetics.map(function (phonetic, index) {
-          return (
-            <div key={index}>
-              <Phonetic phonetic={phonetic} />
-            </div>
-          );
-        })}
+        <section>
+          <h2 className="text-capitalize">
+            <strong>{props.result.word}</strong>
+          </h2>
+          {props.result.phonetics.map(function (phonetic, index) {
+            return (
+              <div key={index}>
+                <Phonetic phonetic={phonetic} />
+              </div>
+            );
+          })}
+        </section>
 
         {props.result.meanings.map(function (meaning, index) {
           return (
