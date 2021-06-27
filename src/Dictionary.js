@@ -4,7 +4,7 @@ import axios from "axios";
 import Result from "./Result";
 
 export default function Dictionary() {
-  let [keyword, setKeyword] = useState("elephant");
+  let [keyword, setKeyword] = useState("code");
   let [result, setResult] = useState(null);
   let [loaded, setLoaded] = useState(false);
 
@@ -40,9 +40,9 @@ export default function Dictionary() {
             <input
               type="search"
               onChange={keywordChange}
-              placeholder="search for a word..."
+              placeholder="Code"
             ></input>
-            <input type="submit"></input>
+            <input className="submit" type="submit"></input>
           </form>
           <p>Search for a defintion, synonyms and phrasing examples.</p>
         </section>

@@ -5,8 +5,8 @@ body {
 }
 
 .footer {
-  font-size: 10px;
-  background: lightgrey;
+  font-size: 12px;
+  background: linen;
 }
 
 section {
@@ -26,4 +26,47 @@ input {
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
   border: 0px;
   margin: 3px 6px 6px 0px;
+  color: cornflowerblue;
+  background: white;
+}
+
+.submit {
+  font-weight: bold;
+}
+
+.submit:hover {
+  background: cornflowerblue;
+  color: white;
+}
+.Phonetic {
+  height: 40px;
+}
+.Phonetic a {
+  border: 0;
+  text-decoration: none;
+  padding: 5px 5px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  color: cornflowerblue;
+  font-weight: bold;
+  background: white;
+  margin-bottom: 30px;
+  transition: all 150ms ease-in-out;
+}
+
+.Phonetic a:hover {
+  background: cornflowerblue;
+  color: white;
+}
+
+li {
+  display: inline-block;
+  padding-right: 30px;
+  line-height: 1px;
+  font-weight: bold;
+}
+
+ul {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
