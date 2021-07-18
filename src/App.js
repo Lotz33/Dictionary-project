@@ -13,8 +13,7 @@ function App() {
       </div>
       <div className="footer text-center py-3">
         {" "}
-        Coded by
-        <a href="https://github.com/Lotz33/Dictionary-project"> Lottie</a>
+        Coded by <a href="https://github.com/Lotz33/Dictionary-project">Lottie</a>
       </div>
     </div>
   );
